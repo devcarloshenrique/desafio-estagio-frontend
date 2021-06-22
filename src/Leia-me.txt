@@ -1,0 +1,5 @@
+Fiz duas soluções pois pesquisei e vi que email marketing possuí uma estrutura diferente de uma página web. Como não tenho certeza de qual manéira vocês preferem fiz de duas formas diferentes.
+
+Solução 1 : utilizando divs.
+
+Solução 2: utilizando tabela.

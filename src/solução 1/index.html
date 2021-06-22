@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> -->
+  <meta http-equiv=" X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio Nibo</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #FFFFFF;
+    }
+
+    table {
+      border-spacing: 0;
+    }
+
+    td {
+      padding: 0;
+    }
+
+    img {
+      border: 0;
+    }
+
+    p,
+    strong {
+      font-size: 20px;
+      line-height: 26px;
+      font-family: Arial, sans-serif;
+      color: #61686A;
+    }
+
+    .wrapper {
+      width: 100%;
+      table-layout: fixed;
+      background-color: #F0F0F0;
+      padding-bottom: 40px;
+    }
+
+    .webkit {
+      max-width: 800px;
+      background-color: #FFFFFF;
+    }
+
+    .outer {
+      margin: 0 auto;
+      width: 100%;
+      max-width: 800px;
+      border-spacing: 0;
+      font-family: sans-serif;
+      color: #61686A;
+    }
+
+    .container-banner .live {
+      position: absolute;
+      width: 120px;
+      left: calc(50% - (120px / 2));
+      margin-top: 30px;
+    }
+
+    .container-banner .title {
+      width: 100%;
+      font-size: 38px;
+      position: absolute;
+      text-align: center;
+      top: -215px;
+      color: #FFFFFF;
+    }
+
+    .container-banner .black-week {
+      position: relative;
+      min-width: 800px;
+    }
+
+    .container-banner .time {
+      position: absolute;
+      left: 31px;
+      top: -75px;
+      width: 350px;
+      left: calc(50% - (350px / 2));
+    }
+
+    .text-container {
+      padding: 50px 30px;
+    }
+
+    .left-bar {
+      width: 7px;
+      height: 110px;
+      background-color: #FFC200;
+      display: block;
+      position: absolute;
+      border-radius: 10px;
+      margin-top: -10px;
+    }
+
+    .block-2 strong,
+    .block-2 p {
+      padding: 10px;
+      margin-left: 20px;
+    }
+
+    .block-2 .text-container {
+      padding-top: 15px;
+      padding-bottom: 30px;
+    }
+
+    .block-2 .text-container p strong {
+      padding: 0;
+      margin: 0;
+    }
+
+    .block-3 p {
+      margin: 15px;
+    }
+
+    .block-3 .text-container {
+      padding-top: 15px;
+      padding-bottom: 0px;
+    }
+
+    .block-3 img {
+      margin-right: 10px;
+    }
+
+    .block-3 button {
+      margin: 35px auto;
+      display: block;
+      background-color: #FFC200;
+      width: 210px;
+      height: 45px;
+      border-radius: 5px;
+      border: 1px solid transparent;
+      box-shadow: none;
+      font-size: 18px;
+      font-weight: bolder;
+      color: #313336;
+      font-family: arial, sans-serif;
+      cursor: pointer;
+    }
+
+    .block-4 p {
+      margin: 15px;
+    }
+
+    .block-4 .text-container {
+      padding-top: 0px;
+      padding-bottom: 30px;
+    }
+
+    .block-5 .footer {
+      text-align: center;
+      background-color: #313336;
+      padding: 15px;
+    }
+
+    .block-5 .footer img {
+      width: 40px;
+      padding: 0 10px;
+      cursor: pointer;
+    }
+
+    .block-6 p {
+      width: 600px;
+      margin: 30px auto 15px;
+      font-size: 16px;
+      text-align: center;
+      color: #61686A;
+    }
+
+    .block-6 a {
+      color: #5d9bf9;
+      cursor: pointer;
+    }
+
+    @media screen and (max-width: 600px) {}
+
+    @media screen and (max-width: 400px) {}
+  </style>
+</head>
+
+<body>
+  <center class="wrapper">
+    <div class="webkit">
+      <table class="outer" align="center">
+        <tr>
+          <td>
+            <table width="100%" style="border-spacing: 0;">
+              <tr>
+                <td style="background-color: #FFFFFF;">
+                  <a href="">
+                    <img src="../../_resource/logo-nibo.png" alt="logo" width="90px" style="padding: 30px;">
+                  </a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <tr class="container-banner">
+          <td>
+            <a href="" style="position: relative;">
+              <img src="../../_resource/blackfriday-bg-emails.png" class="black-week" alt="black-week-banner" width="100%" />
+              <img src="../../_resource/badge-live-white-2@.png" class="live" alt="live" />
+              <h1 class='title'>Muito desconto e conteúdo de <br />BPO Financeiro</h1>
+              <img src="http://gen.sendtric.com/countdown/b7xi12723v" alt="countdown" class="time" />
+            </a>
+          </td>
+        </tr>
+
+        <tr class='block-1'>
+          <td class="text-container">
+            <p> Olá, {{contact.firstname}} Tudo Bem?</p>
+
+            <p>
+              Para começar a Black Week BPO do Nibo, Eliandro Prado, sócio da OmegaPrice,
+              Pablo Goulart, Head de vendas do Nibo, e Gabriel Gaspar, CEO do Nibo, vão bater
+              um papo ao vivo com dicas e estratégias para vender BPO Financeiro.
+            </p>
+          </td>
+        </tr>
+
+        <tr class='block-2'>
+          <td class="text-container">
+            <div class="left-bar"></div>
+            <strong>Já anota na agenda!</strong>
+            <p>A live vai acontecer no dia <strong>23/11</strong>
+              (segunda-feira) às <strong>17h (horário de Brasília).</strong></p>
+          </td>
+        </tr>
+
+        <tr class='block-3'>
+          <td class="text-container">
+            <p style="margin-bottom: 35px;">Confira o que vai rolar:</p>
+            <p><img src='../../_resource/check-yellow.png' alt="verified"> Dicas de Eliandro Prado sobre como vender
+              BPO financeiro e aumentar as vendas em datas comemorativas, como Black Friday;</p>
+            <p><img src='../../_resource/check-yellow.png' alt="verified"> Estratégias de vendas com Pablo Goulart;</p>
+            <p><img src='../../_resource/check-yellow.png' alt="verified"> Ofertas e descontos exclusivos para participantes da live.</p>
+
+            <button>Quero participar</button>
+          </td>
+
+        </tr>
+
+        <tr class="block-4">
+          <td class="text-container">
+            <p>
+              <strong>Vai ser 1 hora de muito conteúdo e ofertas surpresas
+                exclusivas.
+              </strong>
+
+              <br></br>
+              Te aguardamos!
+            </p>
+          </td>
+        </tr>
+
+        <tr class="block-5">
+          <td class="footer">
+            <img src='../../_resource/icone_blog.png' alt="blog">
+            <img src='../../_resource/icone_facebook.png' alt="facebook">
+            <img src='../../_resource/icone_youtube.png' alt="youtube">
+            <img src='../../_resource/icone_instagram.png' alt="instagram">
+          </td>
+        </tr>
+
+        <tr class="block-6">
+          <td>
+            <p>Se não quiser mais receber novidados do Nibo <a>atualize suas preferencias</a> ou
+              <a>cancelce sua inscrição</a>
+            </p>
+          </td>
+        </tr>
+
+      </table>
+    </div>
+  </center>
+</body>
+
+</html>
